@@ -155,6 +155,9 @@ label{
 .message-box{
 	margin-top: 12px;
 }
+.message{
+	width: 100%;
+}
 .submit-btn{
 	margin: 14px 0;
 	background-color: #4aaaa5;
@@ -170,7 +173,7 @@ a.submit-text-link:link {
 	text-decoration: none;
 }
 .port-rows{
-	width:590px;
+	max-width:590px;
 	margin-bottom: 30px;	
 	overflow: auto;
 }
@@ -205,14 +208,16 @@ p.port-box-label{
 
 @media only screen and (max-width: 960px) {
 	.sidebar-section{	
-	margin: 30px 0 10px 0px;	
+	margin: 30px 0px 100px 0px;	
 }
 
 li .icon-image{
 	width: 50px;
 	padding-right: 15px;
 }
-
+.port-images{
+	max-width:270px;
+}
 
 }
 @media only screen and (max-width: 768px) {
@@ -224,15 +229,15 @@ li .icon-image{
 	margin-top: 0;
 }
 .sidebar-section{
-	background-color: #ffffff;
-	margin: 30px 0 10px 0px;
+	margin: 30px 0 40px 0px;
 	}	
 footer{
 	height: 50px;
 	}	
 .section-footer{
 	padding-top: 10px
-}	
+}
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -241,7 +246,6 @@ footer{
 	text-align: center;
 }
 .sidebar-section{
-	background-color: #ffffff;
 	margin: 30px 0 40px 0px;	
 }
 
